@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.text;
 
 public class PesquisaGoogleTest extends SelenideConfig {
 
-    private PesquisaGooglePage pesquisa = new PesquisaGooglePage();
+    PesquisaGooglePage pesquisa = new PesquisaGooglePage();
 
     @Test
     public void pesquisaGoogleComSucesso() {
