@@ -17,6 +17,6 @@ public class PesquisaGooglePage {
     }
 
     public SelenideElement validarPesquisaGoogle() {
-        return $(By.className("r"));
+        return $(By.className("yuRUbf"));
     }
 }
